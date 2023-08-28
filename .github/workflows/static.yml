@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PÃ¡gina com Texto Dourado</title>
+    <style>
+        /* Define a cor de fundo roxa */
+        body {
+            background-color: purple; /* Cor de fundo roxa */
+            background-image: url('nome-da-sua-imagem.jpg'); /* Imagem de fundo, se desejar */
+            background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o fundo */
+            background-position: center; /* Centraliza a imagem no fundo */
+            text-align: center; /* Alinha o texto ao centro */
+            color: gold; /* Cor do texto dourado para todo o corpo da pÃ¡gina */
+        }
+
+        /* Estilize o botÃ£o */
+        button {
+            background-color: green; /* Cor de fundo verde */
+            color: #fff; /* Cor do texto branco */
+            padding: 10px 20px; /* EspaÃ§amento interno */
+            border: none; /* Sem borda */
+            border-radius: 5px; /* Cantos arredondados */
+            cursor: pointer; /* Cursor de mÃ£o ao passar o mouse */
+        }
+
+        /* Estilize o botÃ£o ao passar o mouse por cima */
+        button:hover {
+            background-color: #005600; /* Cor de fundo mais escura ao passar o mouse */
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Bem vindo a sua nova chance de ter sucesso!</h1>
+        <p>CLIQUE AQUI PARA SER DIRECIONADO PARA A PLATAFORMA</p>
+      
+    
+        <!-- BotÃ£o estilizado com redirecionamento -->
+        <button id="meuBotao">PLATAFORMA</button>
+    </div>
+
+    <script>
+        // Adicione um evento de clique ao botÃ£o
+        document.getElementById("meuBotao").addEventListener("click", function() {
+            // Redirecione para o URL fornecido
+            window.location.href = "https://pghhbet.com/?id=31387650";
+        });
+    </script>
+</body>
+</html>
